@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Buat QR Code Pegawai</title>
+  <script src="https://cdn.jsdelivr.net/npm/qrcodejs/qrcode.min.js"></script>
+</head>
+<body>
+  <h2>Buat QR Code Pegawai</h2>
+  <input type="text" id="id" placeholder="Masukkan ID Pegawai (misal: 001)">
+  <button onclick="buatQR()">Buat QR</button>
+  <div id="qrcode" style="margin-top:20px;"></div>
+
+  <script>
+    function buatQR() {
+      const id = document.getElementById('id').value;
+      if (!id) return alert("Masukkan ID pegawai!");
+
+      // URL menuju web pegawai (bisa ubah sesuai domain perusahaan nanti)
+      const url = `https://perusahaan.com/pegawai.html?id=${id}`;
+
+      document.getElementById("qrcode").innerHTML = "";
+      new QRCode(document.getElementById("qrcode"), {
+        text: url,
+        width: 150,
+        height: 150
+      });
+    }
+  </script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+[
+  {
+    "id": "001",
+    "nama": "Dr. Maftuh Effendi, SH., MH.",
+    "nip": "197004201995031004",
+    "gol": "IV/a",
+    "jabatan": "Panitera"
+  },
+  {
+    "id": "002",
+    "nama": "Michael Renaldy Zein, SH., MH.",
+    "nip": "197805062002121008",
+    "gol": "III/c",
+    "jabatan": "Panitera Muda"
+  },
+  {
+    "id": "003",
+    "nama": "Dr. Heru Pramono, S.H., M.Hum.",
+    "nip": "196111191985121001",
+    "gol": "IV/b",
+    "jabatan": "Panitera"
+  }
+]

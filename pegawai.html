@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Data Pegawai</title>
+  <style>
+    body {
+      font-family: Arial;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background: #f9f9f9;
+    }
+    .card {
+      background: white;
+      padding: 25px;
+      border-radius: 12px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.2);
+      text-align: center;
+      width: 320px;
+    }
+  </style>
+</head>
+<body>
+  <div class="card" id="dataPegawai">
+    <h2>Data Pegawai</h2>
+    <p><b>Nama:</b> <span id="nama"></span></p>
+    <p><b>NIP:</b> <span id="nip"></span></p>
+    <p><b>Gol/Ruang:</b> <span id="gol"></span></p>
+    <p><b>Jabatan:</b> <span id="jabatan"></span></p>
+  </div>
+
+  <script>
+    const params = new URLSearchParams(window.location.search);
+    const idPegawai = params.get("id");
+
+    fetch("data.json")
+      .then(res => res.json())
+      .then(data => {
+        const pegawai = data.find(p => p.id === idPegawai);
+        if (pegawai) {
+          document.getElementById("nama").textContent = pegawai.nama;
+          document.getElementById("nip").textContent = pegawai.nip;
+          document.getElementById("gol").textContent = pegawai.gol;
+          document.getElementById("jabatan").textContent = pegawai.jabatan;
+        } else {
+          document.getElementById("dataPegawai").innerHTML = "<p>Data tidak ditemukan.</p>";
+        }
+      });
+  </script>
+</body>
+</html>
