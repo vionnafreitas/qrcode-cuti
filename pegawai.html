@@ -17,11 +17,10 @@
 
     .card {
       background: #ffffff;
-      padding: 40px 30px;
+      padding: 40px 35px;
       border-radius: 20px;
       box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
-      text-align: center;
-      width: 360px;
+      width: 400px;
       transition: transform 0.3s ease, box-shadow 0.3s ease;
     }
 
@@ -30,45 +29,83 @@
       box-shadow: 0 12px 25px rgba(0, 0, 0, 0.25);
     }
 
-    h2 {
-      color: #006b3c;
-      font-size: 26px;
-      margin-bottom: 25px;
-      border-bottom: 3px solid #9fffcf;
+    .title-box {
       display: inline-block;
-      padding-bottom: 5px;
+      background-color: #007f4e;
+      color: white;
+      padding: 10px 25px;
+      border-radius: 10px;
+      font-size: 22px;
       font-weight: 700;
-      letter-spacing: 0.5px;
+      margin-bottom: 25px;
+      text-align: center;
     }
 
-    p {
-      font-size: 18px;
-      color: #222;
-      margin: 12px 0;
+    .info {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      margin-top: 10px;
+    }
+
+    .row {
+      display: flex;
+      align-items: baseline;
+      font-size: 20px;
       font-weight: 600;
-      line-height: 1.5;
+      color: #222;
     }
 
-    b {
+    .label {
+      width: 120px; /* untuk menyamakan posisi titik dua */
+      color: #005c33;
+    }
+
+    .colon {
+      width: 10px;
+      text-align: center;
       color: #005c33;
       font-weight: 700;
+    }
+
+    .value {
+      flex: 1;
+      font-weight: 600;
+      color: #111;
     }
 
     .footer {
       font-size: 13px;
       color: #555;
-      margin-top: 25px;
+      margin-top: 30px;
+      text-align: center;
       font-weight: 500;
     }
   </style>
 </head>
 <body>
   <div class="card" id="dataPegawai">
-    <h2>Data Pegawai</h2>
-    <p><b>Nama:</b> <span id="nama"></span></p>
-    <p><b>NIP:</b> <span id="nip"></span></p>
-    <p><b>Jabatan:</b> <span id="jabatan"></span></p>
-    <div class="footer">© 2025 Kantor Kepegawaian</div>
+    <div class="title-box">Data Pegawai</div>
+
+    <div class="info">
+      <div class="row">
+        <div class="label">Nama</div>
+        <div class="colon">:</div>
+        <div class="value" id="nama"></div>
+      </div>
+      <div class="row">
+        <div class="label">NIP</div>
+        <div class="colon">:</div>
+        <div class="value" id="nip"></div>
+      </div>
+      <div class="row">
+        <div class="label">Jabatan</div>
+        <div class="colon">:</div>
+        <div class="value" id="jabatan"></div>
+      </div>
+    </div>
+
+    <div class="footer">"KEPEGAWAIAN DAN TEKNOLOGI INFORMASI©2025</div>
   </div>
 
   <script>
@@ -84,15 +121,12 @@
           document.getElementById("nip").textContent = pegawai.nip;
           document.getElementById("jabatan").textContent = pegawai.jabatan || "-";
         } else {
-          document.getElementById("dataPegawai").innerHTML = "<p>Data tidak ditemukan.</p>";
+          document.getElementById("dataPegawai").innerHTML = "<p style='font-size:18px;font-weight:600;color:#d00;text-align:center;'>Data tidak ditemukan.</p>";
         }
       })
       .catch(() => {
-        document.getElementById("dataPegawai").innerHTML = "<p>Gagal memuat data pegawai.</p>";
+        document.getElementById("dataPegawai").innerHTML = "<p style='font-size:18px;font-weight:600;color:#d00;text-align:center;'>Gagal memuat data pegawai.</p>";
       });
   </script>
 </body>
 </html>
-
-
-
