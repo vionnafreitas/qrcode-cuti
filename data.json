@@ -1,31 +1,274 @@
 [
   {
     "id": "001",
-    "nama": "Dr. Maftuh Effendi, SH., MH.",
-    "nip": "197004201995031004",
-    "gol": "IV/a",
-    "jabatan": "Panitera"
+    "nama": "A. Syaifullah, S.H.",
+    "nip": "195901091986121001",
+    "jabatan": "Ketua"
   },
   {
     "id": "002",
-    "nama": "Michael Renaldy Zein, SH., MH.",
-    "nip": "197805062002121008",
-    "gol": "III/c",
-    "jabatan": "Panitera Muda"
+    "nama": "Budhi Hasrul, S.H.",
+    "nip": "196210071983111001",
+    "jabatan": "Wakil Ketua"
   },
   {
     "id": "003",
-    "nama": "Dr. Heru Pramono, S.H., M.Hum.",
-    "nip": "196111191985121001",
-    "gol": "IV/b",
-    "jabatan": "Panitera"
+    "nama": "Irhamto, S.H., M.H.",
+    "nip": "196502231986031004",
+    "jabatan": "Hakim Tinggi"
   },
   {
     "id": "004",
-    "nama": "Vionna, S.H., M.Hum.",
-    "nip": "196121191985121009",
-    "gol": "IV/a",
-    "jabatan": "Kabag"
-  }
+    "nama": "Herman Baeha, S.H., M.H.",
+    "nip": "196006251989031002",
+    "jabatan": "Hakim Tinggi"
+  },
+  {
+    "id": "005",
+    "nama": "Susilowati Siahaan, S.H., M.H.",
+    "nip": "196909241993032001",
+    "jabatan": "Hakim Tinggi"
+  },
+  {
+    "id": "006",
+    "nama": "Sutiyono, S.H., M.H.",
+    "nip": "196801201997031001",
+    "jabatan": "Hakim Tinggi"
+  },
+  {
+    "id": "007",
+    "nama": "Dr. Maftuh Effendi, S.H., M.H.",
+    "nip": "197004201995031004",
+    "jabatan": "Hakim Tinggi"
+  },
+  {
+    "id": "008",
+    "nama": "Husein Amin Effendi, S.H., M.H.",
+    "nip": "197104231995031002",
+    "jabatan": "Hakim Tinggi"
+  },
+  {
+    "id": "009",
+    "nama": "Rahma Kurnia Fitri, S.H., M.H.",
+    "nip": "197908201999032002",
+    "jabatan": "Panitera"
+  },
+  {
+    "id": "010",
+    "nama": "Ishak Rizal, S.T.",
+    "nip": "198106072005021001",
+    "jabatan": "Sekretaris"
+  },
+  {
+    "id": "011",
+    "nama": "Yurista Sukmah, S.Sos.",
+    "nip": "198505232006042003",
+    "jabatan": "Kepala Bagian Perencanaan dan Kepegawaian"
+  },
+  {
+    "id": "012",
+    "nama": "Alkodar, S.H., M.H.",
+    "nip": "196712241992031005",
+    "jabatan": "Panitera Muda Banding Tipe B, Panitera Muda Perkara"
+  },
+  {
+    "id": "013",
+    "nama": "Ressy Mirliana Sari, S.H., M.H.",
+    "nip": "198008312006042001",
+    "jabatan": "Kepala Bagian Umum dan Keuangan"
+  },
+  {
+    "id": "014",
+    "nama": "Indra Mufti, S.H.",
+    "nip": "196902121991031006",
+    "jabatan": "Panitera Muda Hukum"
+  },
+  {
+    "id": "015",
+    "nama": "Sulami, S.H., M.H.",
+    "nip": "196508131986032001",
+    "jabatan": "Panitera Pengganti"
+  },
+  {
+    "id": "016",
+    "nama": "Deo Yuvanti, S.H.",
+    "nip": "196508311991032003",
+    "jabatan": "Panitera Pengganti"
+  },
+  {
+    "id": "017",
+    "nama": "Isnaini, S.H., M.H.",
+    "nip": "196909071992032003",
+    "jabatan": "Panitera Pengganti"
+  },
+  {
+    "id": "018",
+    "nama": "Sri Wulan Luciyanti, S.H.",
+    "nip": "196408181994032002",
+    "jabatan": "Panitera Pengganti"
+  },
+  {
+    "id": "019",
+    "nama": "Rina Zaleha, S.H.",
+    "nip": "196505311991032004",
+    "jabatan": "Panitera Pengganti"
+  },
+  {
+    "id": "020",
+    "nama": "Darul Kutni, S.H.",
+    "nip": "197009021991031004",
+    "jabatan": "Panitera Pengganti"
+  },
+  {
+    "id": "021",
+    "nama": "Maryani Ub, S.H.",
+    "nip": "197305151994032006",
+    "jabatan": "Panitera Pengganti"
+  },
+  {
+    "id": "022",
+    "nama": "Jembril, S.H.",
+    "nip": "196310081983021001",
+    "jabatan": "Panitera Pengganti"
+  },
+  {
+    "id": "023",
+    "nama": "Nora Agustina, S.Kom.",
+    "nip": "198808082009122005",
+    "jabatan": "Kepala Subbagian, Subbagian Rencana Program dan Anggaran"
+  },
+  {
+    "id": "024",
+    "nama": "Muhammad Abdullah, S.H.",
+    "nip": "197412132000031006",
+    "jabatan": "Kepala Subbagian, Subbagian Kepegawaian dan Teknologi Informasi"
+  },
+   {
+    "id": "025",
+    "nama": "Novalia Simanjuntak, S.H.",
+    "nip": "198611112012122001",
+    "jabatan": "Kepala Subbagian, Subbagian Tata Usaha dan Rumah Tangga"
+  },
+   {
+    "id": "026",
+    "nama": "Debby Corazona Pratiwi, S.E.",
+    "nip": "198701102009042005",
+    "jabatan": "Kepala Subbagian, Subbagian Keuangan dan Pelaporan"
+  },
+   {
+    "id": "027",
+    "nama": "Medi Darmawansyah, S.H., M.H.",
+    "nip": "198605312006041003",
+    "jabatan": "Analisis Pengelolaan Keuangan APBN Ahli Madya, Bagian Umum dan Keuangan"
+  },
+   {
+    "id": "028",
+    "nama": "Aprianto, S.E.",
+    "nip": "198304012009121002",
+    "jabatan": "Operator - Penata Layanan Operasional, Subbagian Kepegawaian dan Teknologi Informasi"
+  },
+   {
+    "id": "029",
+    "nama": "Firdaus Amin, S.E., M.M.",
+    "nip": "198504262019031006",
+    "jabatan": "Operator - Penata Layanan Operasional, Subbagian Kepegawaian dan Teknologi Informasi"
+  },
+   {
+    "id": "030",
+    "nama": "Mitha Claudia Elsivia, S.H.",
+    "nip": "199602262024052001",
+    "jabatan": "Klerek - Analis Perkara Peradilan, Panitera Muda Hukum"
+  },
+   {
+    "id": "031",
+    "nama": "Fhareza Muhammad Gahar, S.H.",
+    "nip": "199604122024051001",
+    "jabatan": "Klerek - Analis Perkara Peradilan, Panitera Muda Hukum"
+  },
+   {
+    "id": "032",
+    "nama": "Feven Indri Yani, S.Kom.",
+    "nip": "199606212025062013",
+    "jabatan": "Penata Kelola Sistem dan Teknologi Informasi, Subbagian Kepegawaian dan Teknologi Informasi"
+  },
+  {
+    "id": "033",
+    "nama": "Tivri Manthiq Sibarani, S.T.",
+    "nip": "199308242025061003",
+    "jabatan": "Teknisi Sarana dan Prasarana, Subbagian Tata Usaha dan Rumah Tangga"
+  },
+  {
+     "id": "034",
+    "nama": "Risa Setiawati S.I.Kom.",
+    "nip": "199603142025062011",
+    "jabatan": "Klerek - Penata Keprotokolan, Subbagian Tata Usaha dan Rumah Tangga"
+  },
+  {
+    "id": "035",
+    "nama": "Aprilia Berlianda, S.M.",
+    "nip": "199904092020122002",
+    "jabatan": "Operator - Penata Layanan Operasional, Subbagian Keuangan dan Pelaporan"
+  },
+  {
+    "id": "036",
+    "nama": "Hary Yuliansyah, A.Md.",
+    "nip": "199507082020121009",
+    "jabatan": "Pranata Komputer Terampil, Sekretaris"
+  },
+  {
+    "id": "037",
+    "nama": "Tiara Antonisa Wielna, A.Md.A.B.",
+    "nip": "199803062020122002",
+    "jabatan": "Pranata Keuangan APBN Terampil, Sekretaris"
+  },
+  {
+    "id": "038",
+    "nama": "Akbar Winda Nata, A.Md.",
+    "nip": "199303242020121006",
+    "jabatan": "Klerek - Pengolah Data dan Informasi, Subbagian Kepegawaian dan Teknologi Informasi"
+  },
+  {
+    "id": "039",
+    "nama": "Dhevit Miranda A.Md.A.B.",
+    "nip": "199707232022031013",
+    "jabatan": "Klerek - Pengolah Data dan Informasi, Subbagian Rencana Program dan Anggaran"
+  },
+  {
+    "id": "040",
+    "nama": "Basuki",
+    "nip": "198910242025211043",
+    "jabatan": "Operator Layanan Operasional, Subbagian Tata Usaha dan Rumah Tangga"
+  },
+  {
+    "id": "041",
+    "nama": "Tunky Ramadhan",
+    "nip": "199801102025211023",
+    "jabatan": "Operator Layanan Operasional, Subbagian Tata Usaha dan Rumah Tangga"
+  },
+  {
+    "id": "042",
+    "nama": "Dwi Indah Rosalina, S.H., M.H.",
+    "nip": "198603132006042001",
+    "jabatan": "Juru Sita Pengganti"
+  },
+  {
+    "id": "043",
+    "nama": "Ade Kurniawan, S.E.",
+    "nip": "198904192020121003",
+    "jabatan": "Juru Sita Pengganti"
+  },
+  {
+    "id": "044",
+    "nama": "M. Alviandi Pratama Putra, A.Md.",
+    "nip": "199402062019031007",
+    "jabatan": "Juru Sita Pengganti"
+  },
+  {
+    "id": "045",
+    "nama": "Linopa Angra Oktasona, A.Md.",
+    "nip": "198710302019031003",
+    "jabatan": "Juru Sita Pengganti"
+  } 
 ]
+
 
