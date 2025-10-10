@@ -27,7 +27,6 @@
     <h2>Data Pegawai</h2>
     <p><b>Nama:</b> <span id="nama"></span></p>
     <p><b>NIP:</b> <span id="nip"></span></p>
-    <p><b>Gol/Ruang:</b> <span id="gol"></span></p>
     <p><b>Jabatan:</b> <span id="jabatan"></span></p>
   </div>
 
@@ -42,7 +41,6 @@
         if (pegawai) {
           document.getElementById("nama").textContent = pegawai.nama;
           document.getElementById("nip").textContent = pegawai.nip;
-          document.getElementById("gol").textContent = pegawai.gol;
           document.getElementById("jabatan").textContent = pegawai.jabatan;
         } else {
           document.getElementById("dataPegawai").innerHTML = "<p>Data tidak ditemukan.</p>";
@@ -51,3 +49,4 @@
   </script>
 </body>
 </html>
+
