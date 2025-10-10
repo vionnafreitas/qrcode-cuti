@@ -3,22 +3,62 @@
 <head>
   <meta charset="UTF-8">
   <title>Data Pegawai</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
   <style>
     body {
-      font-family: Arial;
+      font-family: "Montserrat", sans-serif;
       display: flex;
       justify-content: center;
       align-items: center;
       height: 100vh;
-      background: #f9f9f9;
+      background: #CFFFE2;
+      margin: 0;
     }
+
     .card {
-      background: white;
-      padding: 25px;
-      border-radius: 12px;
-      box-shadow: 0 0 10px rgba(0,0,0,0.2);
+      background: #ffffff;
+      padding: 40px 30px;
+      border-radius: 20px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
       text-align: center;
-      width: 320px;
+      width: 360px;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 12px 25px rgba(0, 0, 0, 0.25);
+    }
+
+    h2 {
+      color: #006b3c;
+      font-size: 26px;
+      margin-bottom: 25px;
+      border-bottom: 3px solid #9fffcf;
+      display: inline-block;
+      padding-bottom: 5px;
+      font-weight: 700;
+      letter-spacing: 0.5px;
+    }
+
+    p {
+      font-size: 18px;
+      color: #222;
+      margin: 12px 0;
+      font-weight: 600;
+      line-height: 1.5;
+    }
+
+    b {
+      color: #005c33;
+      font-weight: 700;
+    }
+
+    .footer {
+      font-size: 13px;
+      color: #555;
+      margin-top: 25px;
+      font-weight: 500;
     }
   </style>
 </head>
@@ -28,6 +68,7 @@
     <p><b>Nama:</b> <span id="nama"></span></p>
     <p><b>NIP:</b> <span id="nip"></span></p>
     <p><b>Jabatan:</b> <span id="jabatan"></span></p>
+    <div class="footer">© 2025 Kantor Kepegawaian</div>
   </div>
 
   <script>
@@ -41,12 +82,17 @@
         if (pegawai) {
           document.getElementById("nama").textContent = pegawai.nama;
           document.getElementById("nip").textContent = pegawai.nip;
-          document.getElementById("jabatan").textContent = pegawai.jabatan;
+          document.getElementById("jabatan").textContent = pegawai.jabatan || "-";
         } else {
           document.getElementById("dataPegawai").innerHTML = "<p>Data tidak ditemukan.</p>";
         }
+      })
+      .catch(() => {
+        document.getElementById("dataPegawai").innerHTML = "<p>Gagal memuat data pegawai.</p>";
       });
   </script>
 </body>
 </html>
+
+
 
