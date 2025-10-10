@@ -19,37 +19,38 @@
       background: #ffffff;
       border-radius: 20px;
       box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
-      width: 450px;
-      overflow: hidden; /* supaya header nempel penuh di atas */
+      width: 90%;              
+      max-width: 700px;        
+      overflow: hidden;
     }
 
     .title-box {
       background-color: #007f4e;
       color: white;
       text-align: center;
-      padding: 20px 0;
-      font-size: 26px;
+      padding: 25px 0;
+      font-size: 28px;
       font-weight: 700;
       letter-spacing: 0.5px;
     }
 
     .info {
-      padding: 35px;
+      padding: 40px 50px;
       display: flex;
       flex-direction: column;
-      gap: 20px;
+      gap: 25px;
     }
 
     .row {
       display: flex;
       align-items: baseline;
-      font-size: 20px;
+      font-size: 22px;
       font-weight: 600;
       color: #222;
     }
 
     .label {
-      width: 120px; 
+      width: 130px;
       color: #005c33;
     }
 
@@ -67,11 +68,24 @@
     }
 
     .footer {
-      font-size: 13px;
+      font-size: 14px;
       color: #555;
-      margin: 25px 0;
+      margin: 30px 0;
       text-align: center;
       font-weight: 500;
+    }
+    
+    @media (max-width: 480px) {
+      .info {
+        padding: 25px;
+      }
+      .row {
+        font-size: 18px;
+      }
+      .title-box {
+        font-size: 24px;
+        padding: 18px 0;
+      }
     }
   </style>
 </head>
