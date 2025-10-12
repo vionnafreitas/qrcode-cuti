@@ -3,54 +3,35 @@
 <head>
   <meta charset="UTF-8">
   <title>Data Pegawai</title>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
   <style>
     body {
-      font-family: "Poppins", sans-serif;
+      font-family: "Montserrat", sans-serif;
       display: flex;
       justify-content: center;
       align-items: center;
       height: 100vh;
+      background: #CFFFE2;
       margin: 0;
-      background: linear-gradient(135deg, #b2f7d4, #e0fff0);
     }
 
     .card {
-      background: rgba(255, 255, 255, 0.85);
-      backdrop-filter: blur(10px);
-      border-radius: 25px;
-      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
-      width: 90%;
-      max-width: 700px;
+      background: #ffffff;
+      border-radius: 20px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+      width: 90%;              
+      max-width: 700px;        
       overflow: hidden;
-      transition: transform 0.3s ease, box-shadow 0.3s ease;
-    }
-
-    .card:hover {
-      transform: translateY(-6px);
-      box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
     }
 
     .title-box {
-      background: linear-gradient(90deg, #009f60, #00c476);
+      background-color: #007f4e;
       color: white;
       text-align: center;
       padding: 25px 0;
-      font-size: 30px;
+      font-size: 28px;
       font-weight: 700;
-      position: relative;
-    }
-
-    .title-box::after {
-      content: "";
-      position: absolute;
-      bottom: 10px;
-      left: 50%;
-      transform: translateX(-50%);
-      width: 60px;
-      height: 4px;
-      background: white;
-      border-radius: 3px;
+      letter-spacing: 0.5px;
     }
 
     .info {
@@ -62,40 +43,39 @@
 
     .row {
       display: flex;
-      align-items: center;
+      align-items: baseline;
       font-size: 22px;
       font-weight: 600;
-      color: #1e1e1e;
-      border-bottom: 1px solid #e0e0e0;
-      padding-bottom: 10px;
+      color: #222;
     }
 
     .label {
       width: 130px;
-      color: #007f4e;
+      color: #005c33;
     }
 
     .colon {
       width: 10px;
       text-align: center;
-      color: #007f4e;
+      color: #005c33;
       font-weight: 700;
     }
 
     .value {
       flex: 1;
       font-weight: 600;
-      color: #000;
+      color: #111;
     }
 
     .footer {
       font-size: 14px;
-      color: #444;
-      margin: 25px 0 30px 0;
+      color: #555;
+      margin: 30px 0;
       text-align: center;
       font-weight: 500;
     }
 
+    /* Supaya tampilan tetap bagus di layar kecil */
     @media (max-width: 480px) {
       .info {
         padding: 25px;
