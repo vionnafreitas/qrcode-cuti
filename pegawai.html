@@ -27,7 +27,7 @@
     }
 
     .logo-header img {
-      width: 100px; /* 🔥 diperbesar dari 60px */
+      width: 100px; /* Logo diperbesar */
       height: auto;
     }
 
@@ -94,13 +94,15 @@
       padding-bottom: 10px;
     }
 
+    /* Label lebih lebar agar tidak mepet */
     .label {
-      width: 130px;
+      width: 160px;
       color: #007f4e;
     }
 
+    /* Jarak titik dua sedikit lebih jauh */
     .colon {
-      width: 10px;
+      width: 20px;
       text-align: center;
       color: #007f4e;
       font-weight: 700;
@@ -110,6 +112,7 @@
       flex: 1;
       font-weight: 600;
       color: #000;
+      padding-left: 10px; /* spasi tambahan antara titik dua dan value */
     }
 
     .footer {
@@ -166,14 +169,8 @@
           document.getElementById("nama").textContent = pegawai.nama;
           document.getElementById("nip").textContent = pegawai.nip;
           document.getElementById("jabatan").textContent = pegawai.jabatan || "-";
-        } else {
-          document.getElementById("dataPegawai").innerHTML = "<p style='font-size:18px;font-weight:600;color:#d00;text-align:center;'>Data tidak ditemukan.</p>";
         }
-      })
-      .catch(() => {
-        document.getElementById("dataPegawai").innerHTML = "<p style='font-size:18px;font-weight:600;color:#d00;text-align:center;'>Gagal memuat data pegawai.</p>";
       });
   </script>
 </body>
 </html>
-
